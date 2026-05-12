@@ -1,0 +1,89 @@
+{
+  "name": "react-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "React + TS project templated",
+  "main": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "lint:styles": "stylelint '**/*.scss'",
+    "lint:format": "prettier --write src",
+    "lint:fsd": "steiger ./src",
+    "typecheck": "tsc",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielUsov/react-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielUsov/react-template/issues"
+  },
+  "homepage": "https://github.com/DanielUsov/react-template#readme",
+  "browserslist": [
+    "last 3 Chrome versions",
+    "last 3 Firefox versions",
+    "last 3 Safari versions"
+  ],
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "dependencies": {
+    "@mantine/charts": "9.2.1",
+    "@mantine/core": "9.2.1",
+    "@mantine/dates": "9.2.1",
+    "@mantine/form": "9.2.1",
+    "@mantine/modals": "9.2.1",
+    "@mantine/notifications": "9.2.1",
+    "@mantine/nprogress": "9.2.1",
+    "@mantine/spotlight": "9.2.1",
+    "@tanstack/react-query": "5.100.10",
+    "axios": "1.16.1",
+    "dayjs": "1.11.20",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "react-router-dom": "7.15.1",
+    "recharts": "3.8.1",
+    "zustand": "5.0.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@mantine/hooks": "9.2.1",
+    "@tabler/icons-react": "3.44.0",
+    "@tanstack/eslint-plugin-query": "5.100.10",
+    "@types/node": "24.12.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@typescript-eslint/parser": "8.59.3",
+    "@vitejs/plugin-react": "6.0.1",
+    "eslint": "10.4.0",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-import-resolver-typescript": "4.4.4",
+    "eslint-plugin-boundaries": "6.0.2",
+    "eslint-plugin-prettier": "5.5.5",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "eslint-plugin-react-refresh": "0.5.2",
+    "globals": "17.6.0",
+    "postcss": "8.5.14",
+    "postcss-load-config": "6.0.1",
+    "postcss-plugin": "1.0.0",
+    "postcss-preset-mantine": "1.18.0",
+    "postcss-simple-vars": "7.0.1",
+    "prettier": "3.8.3",
+    "steiger": "0.5.12",
+    "stylelint": "17.11.1",
+    "stylelint-config-standard-scss": "17.0.0",
+    "stylelint-order": "8.1.1",
+    "stylelint-prettier": "5.0.3",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.59.2",
+    "vite": "8.0.12"
+  }
+}
